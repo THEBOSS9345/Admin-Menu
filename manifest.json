@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Admin Menu Created by (THE BOSS9345)",
+      "description": "A simple admin menu for server owners to use",
+      "min_engine_version": [1, 20, 10],
+      "uuid": "e909a063-0d7f-4d77-9c13-d6ad9a04d339",
+      "version": [1, 2, 0]
+    },
+    "modules": [
+      {
+        "description": "Data Module",
+        "type": "data",
+        "uuid": "56d6bae8-69f1-4227-a2c2-75caddb4e8d3",
+        "version": [2, 0, 0]
+      },
+      {
+        "description": "Script API Module",
+        "language": "javascript",
+        "type": "script",
+        "uuid": "ec8cf691-28e0-40d6-980c-8506cd5a4743",
+        "version": [2, 0, 0],
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.9.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.2.0-beta"
+      }
+    ],
+    "metadata": {
+      "authors": ["THE BOSS9345"],
+      "license": "MIT"
+    }
+}
